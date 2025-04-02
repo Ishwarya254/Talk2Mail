@@ -11,7 +11,7 @@ from email.message import EmailMessage
 
 model = whisper.load_model("turbo")
 
-result1 = model.transcribe("/content/audio_mail.opus")
+result1 = model.transcribe("your_audio_file")
 transcribed_text = result1["text"]
 
 print(transcribed_text)
