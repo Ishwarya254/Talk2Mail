@@ -3,6 +3,7 @@ An AI-driven tool that converts voice input into professional emails using Whisp
 
 
 🔹 Features:
+
 ✅ Speech-to-Text – Converts voice input into text using Whisper or SeamlessM4T
 
 ✅ AI-Powered Email Formatting – Uses LLaMA-3 to structure and refine the email
