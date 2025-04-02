@@ -17,13 +17,13 @@ An AI-driven tool that converts voice input into professional emails using Whisp
 
 🛠 Tech Stack:
 
-Python
+* Python
 
-Whisper (Speech-to-Text)
+* Whisper (Speech-to-Text)
 
-LLaMA-3 / DeepSeek (AI Email Generation)
+* LLaMA-3 / DeepSeek (AI Email Generation)
 
-SMTP (Gmail API) (Email Sending)
+* SMTP (Gmail API) (Email Sending)
 
 
 🚀 How It Works:
