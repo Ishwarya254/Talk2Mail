@@ -53,16 +53,16 @@ sender_email = "sender_email_ID"
 receiver_email = "receiver_email_ID"
 app_password = "your app_password"
 
-email_text = response.content.strip()  # Get email text from LLM
-lines = email_text.split("\n")  # Split into lines
+email_text = response.content.strip() 
+lines = email_text.split("\n") 
 
-# Extract Subject (first line should be 'Subject: ...')
+# Extract Subject
 subject_line = lines[0].replace("Subject:", "").strip()
 
 # Ensure subject does not have newlines
 subject_line = subject_line.replace("\n", " ")
 
-# Reconstruct email body (skip the subject line)
+# Reconstruct email body
 email_body = "\n".join(lines[1:]).strip()
 
 # Set up the email
